@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>list</title>
+    <title>quiztest</title>
 </head>
 <body>
     <style>
-        div, img {
-            margin-left: 6000px;
+        .pseudo_new::before {
+        content:"new!";
+        margin-left:10px;
+        padding:3px;
+        background-color:red;
+        color:white;
+        font-size:12px;
         }
-        div.image{
-            height:200px;
-            width: 300px;
-            background-image:url(https://media.tenor.com/MgfEseP2_PAAAAAC/frog-pat-head.gif) ;
-            margin:20px 10px;
-            
-            
-        }
-    </style>
-    <div class="image">
+        </style>
+        
+        <ul id="pseudo_list">
+        <li class="pseudo_new">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        </ul>
+
 
 
 </body>
