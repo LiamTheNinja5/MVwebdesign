@@ -1,4 +1,19 @@
-li:only-of-type {
-    height:480;
-    width: 720;
+.box{
+    border-width: 5px;
+    border-style: dashed;
+    margin-right: 64%;
+
+}
+
+img{
+    border-width: 5px;
+    border-style: solid;
+    margin-right: 50%;
+}
+
+li{
+    border-width: 5px;
+    border-style: dotted;
+    margin-right: 50%;
+
 }
