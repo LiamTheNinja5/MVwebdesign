@@ -21,7 +21,8 @@
 .butterfly {
   
   border-radius: 34% 0% 40% 0%;
-  filter: opacity(69%), invert(100%) ;
+  filter: opacity(69%);
+  filter: invert(100%);
 }
 .theater_stage{
   filter: blur(4px);
