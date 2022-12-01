@@ -5,9 +5,10 @@
 }
 .football_field {
   border:solid 48px #000000;
-  border-image:url(/../MVwebdesign/Assets/css3img/tic-tac-toe.png) 48 round;
+  /* I know I am suppost to keep my images stored localy but my server is being weard and not finding the image so this url links back to the same site */
+  border-image:url(https://school.snellco.net/MVwebdesign/Assets/css3img/tic-tac-toe.png) 48 round;
   filter: grayscale(100%);
-  /* test */
+
 }
 .dinosaur {
 
