@@ -1,0 +1,47 @@
+.penguins {
+  filter: sepia(29%);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 86%;
+}
+.football_field {
+  border:solid 48px #000000;
+  border-image:url(/Assets/css3img/tic-tac-toe.png) 48 round;
+  filter: grayscale(100%);
+}
+.dinosaur {
+
+  filter: hue-rotate(90deg);
+}
+.seagull {
+  background:linear-gradient(120deg, #8F8FFF, #ffffff);
+
+}
+.butterfly {
+  border-radius: 34% 0% 40% 0%;
+  filter: hue-rotate(195deg);
+}
+.theater_stage{
+  filter: blur(4px);
+}
+.span{
+  position:relative;
+  width: 350px;
+  height: 400px;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -460%);
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 2px #000000;
+}
