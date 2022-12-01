@@ -5,7 +5,7 @@
 }
 .football_field {
   border:solid 48px #000000;
-  border-image:url(/Assets/css3img/tic-tac-toe.png) 48 round;
+  border-image:url(/../MVwebdesign/Assets/css3img/tic-tac-toe.png) 48 round;
   filter: grayscale(100%);
 }
 .dinosaur {
